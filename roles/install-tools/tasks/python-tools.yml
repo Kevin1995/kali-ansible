@@ -16,3 +16,6 @@
     - { name: 'git-dumper', url: 'git+https://github.com/arthaud/git-dumper.git'}
     - { name: 'powerview.py', url: 'git+https://github.com/aniqfakhrul/powerview.py.git'}
   ignore_errors: true
+
+# If there is an error run the below command
+#ansible-galaxy collection install community.general
