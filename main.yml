@@ -15,16 +15,10 @@
             - streetsidesoftware.code-spell-checker
             - ms-python.python
             - DEVSENSE.phptools-vscode
-            - GitHub.copilot@prerelease
             - snyk-security.snyk-vulnerability-scanner
-              # - role: gantsign.oh-my-zsh
-              #   users: 
-              #     - username: "{{ ansible_user_id }}"
-              #       oh_my_zsh:
-              #         theme: gallois
-              #         plugins:
-              #           - git
-              #         update_mode: reminder
-              #         update_frequency: 3
-              #         write_zshrc: false
+            - esbenp.prettier-vscode
+            - GitHub.copilot
+            - ms-vscode.powershell
+            - ms-vscode.cpptools
          
+  ignore_errors: yes
