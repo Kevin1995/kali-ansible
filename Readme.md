@@ -7,6 +7,7 @@ Based on Ippsec's parrot build [script](https://github.com/IppSec/parrot-build) 
 * Install Ansible (pip3 install ansible)
 * Clone and enter the repo (git clone)
 * ansible-galaxy install -r requirements.yml
+* ansible-galaxy collection install community.general
 * Make sure we have a sudo token (sudo whoami)
 * ansible-playbook main.yml
 
